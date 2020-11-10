@@ -2,9 +2,10 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 3.1.0
+version: 3.2.0
 apiversion: 2
 architectures: armv7 arm64 i386 x86_64
+mac: false
 description: titanium-firebase-core
 author: Hans Knoechel
 license: Apache 2
@@ -15,4 +16,4 @@ name: titanium-firebase-core
 moduleid: firebase.core
 guid: 67251823-11de-4439-8150-56cad62a55eb
 platform: iphone
-minsdk: 8.0.0
+minsdk: 9.2.0
